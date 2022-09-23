@@ -181,11 +181,11 @@ Encore.configureCssLoader(() => {})
 | sure to install the required dependencies.
 |
 */
-// Encore.enableVueLoader(() => {}, {
-//   version: 3,
-//   runtimeCompilerBuild: false,
-//   useJsx: false
-// })
+Encore.enableVueLoader(() => {}, {
+  version: 3,
+  runtimeCompilerBuild: false,
+  useJsx: false,
+})
 
 /*
 |--------------------------------------------------------------------------

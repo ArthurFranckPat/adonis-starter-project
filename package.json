@@ -49,6 +49,7 @@
     "pino-pretty": "^8.1.0",
     "prettier": "^2.7.1",
     "typescript": "~4.6",
+    "vue-loader": "^17.0.0",
     "youch": "^3.2.0",
     "youch-terminal": "^2.1.4"
   },
@@ -60,6 +61,9 @@
     "@adonisjs/session": "^6.4.0",
     "@adonisjs/shield": "^7.0.11",
     "@adonisjs/view": "^6.1.6",
+    "@eidellev/inertia-adonisjs": "^7.1.0",
+    "@inertiajs/inertia": "^0.11.0",
+    "@inertiajs/inertia-vue3": "^0.6.0",
     "autoprefixer": "^10.4.7",
     "luxon": "^3.0.1",
     "openapi-types": "^12.0.0",
@@ -68,6 +72,7 @@
     "reflect-metadata": "^0.1.13",
     "source-map-support": "^0.5.21",
     "sqlite3": "^5.0.8",
-    "tailwindcss": "^3.1.5"
+    "tailwindcss": "^3.1.5",
+    "vue": "^3.2.39"
   }
 }

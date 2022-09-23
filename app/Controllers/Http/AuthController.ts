@@ -3,11 +3,11 @@ import User from 'App/Models/User'
 import AuthValidator from '../../Validators/AuthValidator'
 
 export default class AuthController {
-  public async showRegister({ view }: HttpContextContract) {
-    return view.render('pages/auth/register')
+  public async showRegister({ inertia }: HttpContextContract) {
+    return inertia.render('Auth/Register')
   }
-  public async showLogin({ view }: HttpContextContract) {
-    return view.render('pages/auth/register')
+  public async showLogin({ inertia }: HttpContextContract) {
+    return inertia.render('Auth/Login')
   }
 
   public async register({ request, response, auth }: HttpContextContract) {
